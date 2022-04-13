@@ -11,7 +11,7 @@ use Illuminate\Database\Eloquent\Model;
  *     required={"model"},
  *     @OA\Property(
  *       property="id",
- *       type="BigInt",
+ *       type="integer",
  *       example="1",
  *     ),
  *     @OA\Property(
@@ -21,7 +21,7 @@ use Illuminate\Database\Eloquent\Model;
  *     ),
  *     @OA\Property(
  *       property="user_id",
- *       type="BigInt",
+ *       type="integer",
  *       example="1",
  *     )
  * )

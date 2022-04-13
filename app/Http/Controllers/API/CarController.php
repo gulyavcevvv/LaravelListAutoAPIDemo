@@ -17,7 +17,7 @@ class CarController extends ApiController
      *     tags={"Car"},
      *     @OA\Parameter(
      *         description="limit. Default 5",
-     *         in="path",
+     *         in="query",
      *         name="limit",
      *         required=false,
      *         @OA\Schema(type="string"),
@@ -25,7 +25,7 @@ class CarController extends ApiController
      *     ),
      *     @OA\Parameter(
      *         description="offset. Default 0",
-     *         in="path",
+     *         in="query",
      *         name="offset",
      *         required=false,
      *         @OA\Schema(type="string"),

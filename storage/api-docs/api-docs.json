@@ -150,7 +150,7 @@
                 "parameters": [
                     {
                         "name": "limit",
-                        "in": "path",
+                        "in": "query",
                         "description": "limit. Default 5",
                         "required": false,
                         "schema": {
@@ -165,7 +165,7 @@
                     },
                     {
                         "name": "offset",
-                        "in": "path",
+                        "in": "query",
                         "description": "offset. Default 0",
                         "required": false,
                         "schema": {
@@ -421,7 +421,7 @@
                 ],
                 "properties": {
                     "id": {
-                        "type": "BigInt",
+                        "type": "integer",
                         "example": "1"
                     },
                     "model": {
@@ -429,7 +429,7 @@
                         "example": "BMW x5"
                     },
                     "user_id": {
-                        "type": "BigInt",
+                        "type": "integer",
                         "example": "1"
                     }
                 },
